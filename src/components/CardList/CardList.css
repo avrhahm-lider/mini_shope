@@ -1,0 +1,8 @@
+#product-list{
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-rows: repeat(minmax(80px, 1fr));
+    gap: 2%;
+    
+}

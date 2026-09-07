@@ -1,0 +1,42 @@
+.nav-bar{
+    height: 50px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+#links{
+    margin-left: 30%;
+    align-self: flex-end;
+    height: 100%;
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 40px;
+    width: 49%;
+    text-decoration: none;
+}
+.theme-btn{
+height: 40px;
+width: 40px;
+background-color: white;
+border-radius: 10px;
+}
+
+.theme-btn:hover{
+background-color: rgb(200, 198, 198);
+}
+
+.curentPage{
+    border-bottom: 4px solid orangered;
+}

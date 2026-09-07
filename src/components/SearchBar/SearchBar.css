@@ -1,0 +1,19 @@
+.serch-main{
+    padding-left: 2.5%;
+    height: 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    input{
+        border: unset;
+        border: 1px solid black;
+        height: 20px;
+        border-radius:  5px 0 0 5px ;
+    }
+    span{
+        height: 20px;
+        border: 1px solid black;
+        border-left: 0;
+        border-radius: 0 5px 5px 0;
+    }
+}
